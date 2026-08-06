@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container_py-5">
+        <section class="card">
+            <h1>Lista de Tarefas</h1>
+            <h3>Digite uma tarefa</h3>
+
+            <div class="input-group">
+                <input type="text" id="tarefaInput" placeholder="Digite sua tarefa aqui">
+                <button id="adicionarTarefa">Adicionar Tarefa</button>
+            </div>
+
+            <ul id="listaTarefas" class="lista-tarefas">
+                <li class="resumo">
+                    <span>Total: <strong id="totalCount">0</strong></span>
+                    <span>Concluídas: <strong id="concluidas">0</strong></span>
+                    <span>Pendentes: <strong id="pendentes">0</strong></span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
